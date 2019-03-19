@@ -144,3 +144,8 @@ Responsive design - верстка под мобильные и десктопн
 body {
     display: flex
 }
+#colored {
+    background-color: rgb(44, 11, 11)
+}
+
+<div id="colored">Hi!</div>
