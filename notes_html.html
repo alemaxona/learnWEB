@@ -52,14 +52,13 @@ ID
 <!-- Она также указывает на то, что это версия 5! -->
 <!DOCTYPE html>
 
-<!--Далее идут:-->
+<!-- Далее идут: -->
 <html>
 <head>  <!-- В этом теге лежит в основном мета информация -->
 <meta charset="UTF-8">  <!-- UTF-8 по умолчанию в html5 -->
     <title>Title</title>
 </head>
 <!-- CSS -->
-
 <style>
     
 body {
@@ -70,25 +69,24 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
-
+/*
 p {
     background-color: darkgray;
     border: 1px solid gray;
     border-radius: 5px;
     text-align: center;
-}
-
+} 
+*/
 .colored {
     color: green
 }
-</style>
 
+</style>
 <body>
     <h1>Tulip</h1>
 
     <p class="colored"> Hi!</p>
 </body>
-
 </html>
 
 
@@ -271,7 +269,13 @@ style
 <a href="www.instagram.com" class="icon-insta social-icon">Инстаграм</a>  <!-- И далее скрывать подпись через CSS -->
 <!-- Но  -->
 <a href="www.instagram.com" class="icon-insta social-icon"></a>  <!-- Так нельзя! -->
+<br>
 
+<!-- label для формы -->
+<p class="appointment-item">
+    <label for="appointment-time">Время</label>  <!-- При щелччке на label - попадаем сразу в заполнение формы! -->
+    <input id="appointment-time" type="text" name="time" value="" placeholder="10:00">
+</p>
 
 <!-- Форма с двигающимся ползунком -->
 <label>
@@ -292,7 +296,7 @@ style
     <summary>Подробнее</summary>
     <p>Нужно учить!</p>
 </details>
-
+<br>
 
 <!-- Красивая рамка -->
 <fieldset>
